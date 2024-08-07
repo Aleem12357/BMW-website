@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>
+        BMW</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="container-fluid p-0 m-0" id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png"
+                        style="background-color: black; border-radius: 40px;" height="70px" alt="BMW Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="innovation.html">Innovations</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Models.html">Models</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-info" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="footer container-fluid ">
+        <div class="footer-row d-flex justify-content-center">
+            <div class="footer-col" id="Contact">
+                <h4>Get Help</h4>
+                <form class="was-validated contactusform">
+                    <div class="mb-3">
+                        <label for="Inputusername" class="form-label text-light">Username</label>
+                        <input type="text" class="form-control" id="Inputusername" aria-describedby="usernameHelp"
+                            required>
+                        <div class="invalid-feedback">Please Enter your name</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputEmail1" class="form-label text-light ">Email address</label>
+                        <input type="email" class="form-control is-invalid" id="InputEmail1"
+                            aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="invalid-feedback">Pls follow this format: abc@gmail.com</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="validationTextarea" class="form-label">Textarea</label>
+                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Write here"
+                            required></textarea>
+                        <div class="invalid-feedback">
+                            Please enter a message in the textarea.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn ">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Info</h4>
+                <ul class="links">
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#">Compressions</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li class="disabled"><a href="#">Service</a></li>
+                    <li><a href="Models.html">Collection</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul class="links">
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="links">
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="Contact.html" class="was-validated Subscribeform">
+                    <label for="InputEmail1" class="form-label text-light ">Email address</label>
+                    <input type="email" class="form-control is-invalid" id="InputEmail1" aria-describedby="emailHelp"
+                        required>
+                    <div id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
+                    </div>
+                    <button type="submit" class="btn ">Subscribe</button>
+                </form>
+
+                <div class="icons">
+                    <a href="https://facebook.com/BMWDewan">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/bmwdewan/?lang=en">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/bmwdewan">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/channel/UCnnPZv4AzQNlz0unHBBf1uA">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
